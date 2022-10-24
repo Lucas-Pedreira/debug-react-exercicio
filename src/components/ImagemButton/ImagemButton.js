@@ -2,8 +2,6 @@ import React from 'react';
 // import './ImagemButton.css'
 import styled from 'styled-components'
 
-function ImagemButton(props) {
-
     const ContainerImagemVerMais = styled.div`
     display: flex;
     align-items: center;
@@ -18,6 +16,9 @@ function ImagemButton(props) {
     width: 30px;
     margin-right: 10px;
     `
+    
+function ImagemButton(props) {
+
 
     return (
         <ContainerImagemVerMais>
